@@ -6,5 +6,5 @@ class GardenGnome
   @gluten_allergy = gluten_allergy
   @personality = personality
   @hat_color = hat_color
-end 
+  end 
 def 
