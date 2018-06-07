@@ -1,12 +1,9 @@
 # Code your instances here
 class GardenGnome
-  attr_accessor :name, :age, :gluten_allergy, :personality, :hat_color
-  def initialize(name, age, gluten_allergy, hat_color,personality = "evil")
+  attr_accessor :name, :age
+  def initialize(name, age)
   @name= name
   @age = age
-  @gluten_allergy = gluten_allergy
-  @personality = personality
-  @hat_color = hat_color
     def introduce_self
       puts "Hello humans, my name is #{name}. I am #{age} years old, and you'll rue the day you crossed me!"
     end
@@ -17,3 +14,4 @@ gnaw = "Gnawing on a tree"
 shout ="GNARLY!!!"
   puts shout
 end
+gnome("Walter the Worst"
