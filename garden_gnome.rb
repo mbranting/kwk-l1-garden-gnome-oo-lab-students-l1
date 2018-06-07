@@ -14,4 +14,4 @@ gnaw = "Gnawing on a tree"
 shout ="GNARLY!!!"
   puts shout
 end
-gnome("Walter the Worst"
+gnome("Walter the Worst", 
