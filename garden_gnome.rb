@@ -7,5 +7,12 @@ class GardenGnome
   @personality = personality
   @hat_color = hat_color
   end 
-  
+  def gnaw 
+    puts "Gnawing on a tree"
+  end
+  def shout
+    puts "GNARLY!!!"
+  end
+  def introduce_self
+    puts
 def 
