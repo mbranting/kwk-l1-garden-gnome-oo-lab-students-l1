@@ -6,6 +6,8 @@ class GardenGnome
   @gluten_allergy = gluten_allergy
   @personality = personality
   @hat_color = hat_color
+  def introduce_self
+    puts "Hello humans, my name is #{"
   end 
   def gnaw 
     puts "Gnawing on a tree"
@@ -13,6 +15,4 @@ class GardenGnome
   def shout
     puts "GNARLY!!!"
   end
-  def introduce_self
-    puts
 def 
