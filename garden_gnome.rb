@@ -12,13 +12,9 @@ class GardenGnome
     end
   puts introduce_self
   end 
-  def gnaw 
-    puts "Gnawing on a tree"
-  end
+gnaw = "Gnawing on a tree"
   puts gnaw
-  def shout
-    puts "GNARLY!!!"
-  end
+shout ="GNARLY!!!"
   puts shout
 end
   
