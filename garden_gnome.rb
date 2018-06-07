@@ -18,6 +18,7 @@ class GardenGnome
   def shout
     puts "GNARLY!!!"
   end
-  gnaw
+end
+  puts gnaw
   shout
   
