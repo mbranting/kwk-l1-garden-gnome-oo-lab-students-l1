@@ -15,10 +15,10 @@ class GardenGnome
   def gnaw 
     puts "Gnawing on a tree"
   end
+  puts gnaw
   def shout
     puts "GNARLY!!!"
   end
+  puts shout
 end
-  puts gnaw
-  shout
   
